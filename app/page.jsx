@@ -3,14 +3,16 @@ import { FaDownload } from "react-icons/fa";
 
 const Home = () => {
   return (
-    <section className="flex justify-between gap-3 pb-7">
-      <div className="flex flex-col max-w-[950px] pt-6 pl-6">
-        <p className="text-[30px] font-semibold">Hi there,</p>
-        <p className="text-[30px] font-semibold">I'm Taku</p>
-        <h1 className="text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-purplePrimary">
+    <section className="flex flex-col items-center lg:flex-row lg:justify-between gap-3 pb-7">
+      <div className="flex flex-col max-w-[950px] p-6 ring-1 ring-gray-100 rounded-lg bg-white/30 drop-shadow-lg backdrop-blur-md">
+        <p className="text-[20px] font-semibold">👋Hi there,</p>
+        <p className="text-[30px] md:text-[40px] w-[200px] font-bold text-transparent bg-clip-text bg-gradient-to-l from-pink-500 to-purplePrimary">
+          I'm Taku
+        </p>
+        <h1 className="text-3xl md:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-purple-600 to-purplePrimary">
           Fullstack Developer & Blockchain Enthusiast
         </h1>
-        <p className="pt-4 text-[20px] font-normal text-purpleSecondary">
+        <p className="pt-4 md:text-[20px] font-normal text-purpleSecondary">
           From Fullstack Alchemist to Web3 Maestro, I'm building the tools to
           empower individuals and reshape the digital landscape. Fueled by a
           vision of a decentralized future, I'm also delving into the frontiers
@@ -25,13 +27,13 @@ const Home = () => {
             <span>Resume</span>
           </button>
 
-          <button className="bg-transparent font-semibold text-purplePrimary py-4 px-6 ">
-            View my Github Profile
+          <button className="bg-transparent font-semibold text-purplePrimary py-4 px-6 hover:underline ">
+            Visit my Github Profile
           </button>
         </div>
       </div>
 
-      <div className="w-[600px] flex flex-1 justify-end">
+      <div className="flex flex-1 justify-end">
         <Image
           src={"/hero-illustration.png"}
           width={500}

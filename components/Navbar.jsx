@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <nav className=" border border-gray-50 bg-white/30 backdrop-blur-md px-12 py-6 ">
+    <nav className="border border-gray-50 bg-white/30 backdrop-blur-md p-6 ">
       {/* Desktop Navigation */}
       <div className="w-full flex justify-between items-center">
         <div className="flex gap-3 items-center">

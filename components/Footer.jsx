@@ -13,13 +13,13 @@ const Footer = () => {
 
       <div className="flex gap-3">
         <Link href={"#"}>
-          <FaFacebook className="text-purpleTint w-[30px] h-[30px]" />
+          <FaFacebook className="text-purpleTint w-[30px] h-[30px] hover:text-white" />
         </Link>
         <Link href={"#"}>
-          <FaSquareXTwitter className="text-purpleTint w-[30px] h-[30px]" />
+          <FaSquareXTwitter className="text-purpleTint w-[30px] h-[30px] hover:text-white" />
         </Link>
         <Link href={"#"}>
-          <FaLinkedin className="text-purpleTint w-[30px] h-[30px]" />
+          <FaLinkedin className="text-purpleTint w-[30px] h-[30px] hover:text-white" />
         </Link>
       </div>
 
