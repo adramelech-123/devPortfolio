@@ -15,7 +15,7 @@ module.exports = {
       colors: {
         purplePrimary: "#291C3A",
         purpleSecondary: "#331C52",
-        purpleTertiary: "8121D0",
+        purpleTertiary: "812ID0",
         purpleTint: "#DCCFED",
         purpleFeint: "E1EBED"
       },
