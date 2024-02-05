@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="flex w-full flex-row justify-between items-center p-6 bg-purplePrimary">
+    <div className="flex flex-col space-y-6 w-full md:flex-row md:justify-between items-center p-6 bg-purplePrimary">
       <div className="">
         <p className="text-sm text-gray-500">
           © {new Date().getFullYear()}, Built By TheRealTaku

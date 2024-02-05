@@ -4,6 +4,8 @@ import { FaDownload } from "react-icons/fa";
 const Home = () => {
   return (
     <section className="flex flex-col items-center lg:flex-row lg:justify-between gap-3 pb-7">
+
+      {/* Intro Card */}
       <div className="flex flex-col max-w-[950px] p-6 ring-1 ring-gray-100 rounded-lg bg-white/30 drop-shadow-lg backdrop-blur-md">
         <p className="text-[20px] font-semibold">👋Hi there,</p>
         <p className="text-[30px] md:text-[40px] w-[200px] font-bold text-transparent bg-clip-text bg-gradient-to-l from-pink-500 to-purplePrimary">
@@ -33,6 +35,7 @@ const Home = () => {
         </div>
       </div>
 
+      {/* Hero Image */}
       <div className="flex flex-1 justify-end">
         <Image
           src={"/hero-illustration.png"}
