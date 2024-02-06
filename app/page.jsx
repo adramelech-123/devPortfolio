@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image";
 import { FaDownload } from "react-icons/fa";
 
@@ -38,7 +39,7 @@ const Home = () => {
       {/* Hero Image */}
       <div className="flex flex-1 justify-end">
         <Image
-          src={"/hero-illustration.png"}
+          src={"/programmer.gif"}
           width={500}
           height={500}
           className="rounded-full"
