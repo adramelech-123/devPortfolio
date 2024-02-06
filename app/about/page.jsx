@@ -10,19 +10,17 @@ const About = () => {
         About
       </h1>
       <div className=" w-3/4 flex flex-col md:flex-row md:space-between gap-5 items-center ">
-        <div className="">
-          <Image
-            src={"/glow-robo-hands.gif"}
-            width={500}
-            height={500}
-            className="rounded-xl"
-          />
-        </div>
+        {/* Profile Image */}
+        <Image
+          src={"/glow-robo-hands.gif"}
+          width={550}
+          height={550}
+        />
 
         <div>
           {/* Bio */}
-          <div className="max-w-[650px] p-6 ring-1 ring-gray-100 rounded-lg bg-white/40 drop-shadow-lg backdrop-blur-md">
-            <p className="text-[20px]  text-purplePrimary">
+          <div className="max-w-[800px] p-6  rounded-lg bg-purpleSecondary shadow-md">
+            <p className="text-[20px]  text-white">
               A personal bio is essentially your introduction to the world,
               serving as a snapshot of who you are and what you do. It’s an
               opportunity to showcase your unique skills, interests, and
@@ -35,13 +33,13 @@ const About = () => {
             </p>
 
             <div className="flex gap-3 items-center mt-4">
-              <FaPhone className=" bg-purplePrimary p-1  w-[25px] h-[25px] text-white rounded-full" />
-              <span>+263771326080</span>
+              <FaPhone className=" bg-purpleTint p-1  w-[25px] h-[25px] text-purplePrimary rounded-full" />
+              <span className="text-white">+263771326080</span>
             </div>
 
             <div className="flex gap-3 items-center mt-4">
-              <MdEmail className=" bg-purplePrimary p-1  w-[25px] h-[25px] text-white rounded-full" />
-              <span>tmamvuto6@gmail.com</span>
+              <MdEmail className=" bg-purpleTint p-1  w-[25px] h-[25px] text-purplePrimary rounded-full" />
+              <span className="text-white">tmamvuto6@gmail.com</span>
             </div>
           </div>
 
