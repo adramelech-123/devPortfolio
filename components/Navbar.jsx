@@ -8,10 +8,10 @@ import { IoMdClose } from "react-icons/io";
 
 const Navbar = () => {
 
-  const [toggle, setToggle] = useState(true)
+  const [toggle, setToggle] = useState(false)
 
   return (
-    <nav className="border border-gray-50 bg-white/30 backdrop-blur-md p-6 flex items-center z-[10]">
+    <nav className="bg-white/30 backdrop-blur-md p-6 flex items-center z-[10]">
       {/* Desktop Navigation */}
       <div className="w-full flex justify-between items-center">
         <div className="flex gap-3 items-center">
