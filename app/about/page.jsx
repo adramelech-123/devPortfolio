@@ -17,7 +17,7 @@ const About = () => {
       <div className="flex flex-col h-[1000px] lg:h-auto lg:flex-row lg:space-between lg:w-3/4 lg:gap-5 lg:items-center">
         
         {/* Profile Image */}
-        <Image src={"/glow-robo-hands.gif"} width={550} height={550} />
+        <Image src={"/glow-robo-hands.gif"} alt="robohands" width={550} height={550} />
 
         {/* Profile Card Content */}
         <div

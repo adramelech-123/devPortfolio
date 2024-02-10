@@ -17,10 +17,10 @@ const Navbar = () => {
         <div className="flex gap-3 items-center">
           <Image
             src={"/profile.jpg"}
+            alt="logo"
             height={50}
             width={50}
             className="rounded-full"
-
           />
         </div>
 
