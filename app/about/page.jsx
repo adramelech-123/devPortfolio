@@ -3,26 +3,7 @@ import Image from "next/image";
 import { FaPhone } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import styles from './flipcard.module.css'
-
-import { FaHtml5 } from "react-icons/fa";
-import { IoLogoCss3 } from "react-icons/io";
-import { SiTailwindcss } from "react-icons/si";
-import { IoLogoJavascript } from "react-icons/io5";
-import { SiTypescript } from "react-icons/si";
-import { RiReactjsFill } from "react-icons/ri";
-import { TbBrandNextjs } from "react-icons/tb";
-
-import { FaNodeJs } from "react-icons/fa";
-import { SiExpress } from "react-icons/si";
-import { SiMongodb } from "react-icons/si";
-import { SiMongoose } from "react-icons/si";
-import { IoLogoFirebase } from "react-icons/io5";
-import { BiLogoPostgresql } from "react-icons/bi";
-import { SiPrisma } from "react-icons/si";
-import { SiInsomnia } from "react-icons/si";
-import { GrGraphQl } from "react-icons/gr";
-import { SiPhp } from "react-icons/si";
-import { SiPython } from "react-icons/si";
+import Skills from "@/components/Skills";
 
 
 const About = () => {
@@ -34,6 +15,7 @@ const About = () => {
 
       {/* Profile*/}
       <div className="flex flex-col h-[1000px] lg:h-auto lg:flex-row lg:space-between lg:w-3/4 lg:gap-5 lg:items-center">
+        
         {/* Profile Image */}
         <Image src={"/glow-robo-hands.gif"} width={550} height={550} />
 
@@ -42,7 +24,7 @@ const About = () => {
           className={`${styles.card} lg:min-w-[500px] h-[450px] md:h-[400px] bg-white/30 rounded-xl shadow-lg ring-3 ring-white/30`}
         >
           {/* Bio */}
-          <div className={` ${styles.front} max-w-[800px] min-h-[365px] p-6`}>
+          <div className={`${styles.front} max-w-[800px] min-h-[365px] p-6`}>
             <p className="text-[18px] font-normal  text-purplePrimary">
               A personal bio is essentially your introduction to the world,
               serving as a snapshot of who you are and what you do. It’s an
@@ -74,34 +56,7 @@ const About = () => {
               My Skills
             </h2>
 
-            <div className="flex flex-col space-y-5">
-              <div className="grid grid-cols-6 items-center gap-6">
-                <FaHtml5 className="text-[60px] text-purplePrimary" />
-                <IoLogoCss3 className="text-[60px] text-purplePrimary" />
-                <SiTailwindcss className="text-[60px] text-purplePrimary" />
-                <IoLogoJavascript className="text-[60px] text-purplePrimary" />
-                <SiTypescript className="text-[53px] text-purplePrimary" />
-                <RiReactjsFill className="text-[60px] text-purplePrimary" />
-              </div>
-
-              <div className="grid grid-cols-6 items-center gap-6">
-                <TbBrandNextjs className="text-[60px] text-purplePrimary" />
-                <FaNodeJs className="text-[60px] text-purplePrimary" />
-                <SiExpress className="text-[60px] text-purplePrimary" />
-                <SiMongodb className="text-[60px] text-purplePrimary" />
-                <SiMongoose className="text-[53px] text-purplePrimary" />
-                <BiLogoPostgresql className="text-[60px] text-purplePrimary" />
-              </div>
-
-              <div className="grid grid-cols-6 items-center gap-6">
-                <IoLogoFirebase className="text-[60px] text-purplePrimary" />
-                <SiPrisma className="text-[60px] text-purplePrimary" />
-                <SiInsomnia className="text-[60px] text-purplePrimary" />
-                <GrGraphQl className="text-[60px] text-purplePrimary" />
-                <SiPhp className="text-[53px] text-purplePrimary" />
-                <SiPython className="text-[53px] text-purplePrimary" />
-              </div>
-            </div>
+            <Skills/>
           </div>
         </div>
       </div>

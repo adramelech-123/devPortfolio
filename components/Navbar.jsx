@@ -16,10 +16,11 @@ const Navbar = () => {
       <div className="w-full flex justify-between items-center">
         <div className="flex gap-3 items-center">
           <Image
-            src={"/realTaku.jpg"}
+            src={"/profile.jpg"}
             height={50}
             width={50}
             className="rounded-full"
+
           />
         </div>
 

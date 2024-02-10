@@ -12,7 +12,7 @@ export const navLinks = [
     title: "Projects",
   },
   {
-    href: "contact",
-    title: "Contact",
+    href: "hire",
+    title: "Hire Me",
   },
 ];

@@ -12,8 +12,8 @@ const Home = () => {
         <p className="text-[30px] md:text-[40px] w-[200px] font-bold text-transparent bg-clip-text bg-gradient-to-l from-pink-500 to-purplePrimary">
           I'm Taku
         </p>
-        <h1 className="text-3xl md:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-purple-600 to-purplePrimary">
-          Fullstack Developer & Blockchain Enthusiast
+        <h1 className="text-3xl md:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-purple-700 to-purplePrimary">
+          Fullstack Alchemist & Blockchain Enthusiast
         </h1>
         <p className="pt-4 md:text-[20px] font-normal text-purpleSecondary">
           From Fullstack Alchemist to Web3 Maestro, I'm building the tools to
