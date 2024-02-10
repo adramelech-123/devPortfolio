@@ -9,7 +9,7 @@ const Projects = () => {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
-    pb.collection("portfolio_projects")
+    pb.collection("projects")
       .getFullList()
       .then((res) => setProjects(res));
   }, [])

@@ -4,8 +4,21 @@ import { FaGithub } from "react-icons/fa6";
 const ProjectCard = ({image, recordId, title, desc}) => {
   return (
     <div className="mt-5 w-[300px] h-[400px] p-3 flex flex-col rounded-xl shadow-lg bg-white/30 backdrop-blur-md ring-1 ring-gray-100 space-y-3">
-      
-      <img src={`http://127.0.0.1:8090/api/files/sq6yqjvfdqm9l4n/${recordId}/${image}`} alt="projectimage" width={350} height={450} className="rounded-xl" />
+      {/* <img
+        src={`http://127.0.0.1:8090/api/files/sq6yqjvfdqm9l4n/${recordId}/${image}`}
+        alt="projectimage"
+        width={350}
+        height={450}
+        className="rounded-xl"
+      /> */}
+
+      <img
+        src={`https://realtakuportfoli.pockethost.io/api/files/drug4l9pgz9v6w4/${recordId}/${image}`}
+        alt="projectimage"
+        width={350}
+        height={450}
+        className="rounded-xl"
+      />
 
       {/* Content */}
       <div className="space-y-2">

@@ -1,4 +1,6 @@
 import PocketBase from "pocketbase";
 
-export const pb = new PocketBase("http://127.0.0.1:8090");
+const POCKET_URL = "https://realtakuportfoli.pockethost.io/";
+
+export const pb = new PocketBase(POCKET_URL);
 pb.autoCancellation(false)
