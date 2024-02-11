@@ -13,6 +13,6 @@ export const navLinks = [
   },
   {
     href: "hire",
-    title: "Hire Me",
+    title: "Contact",
   },
 ];

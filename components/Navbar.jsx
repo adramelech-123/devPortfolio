@@ -16,7 +16,8 @@ const Navbar = () => {
       <div className=" relative w-full flex justify-between items-center">
         <div className="flex gap-3 items-center">
           <Link href={"/"} className="flex justify-center items-center">
-            <Image src={"/alchemy2.png"} alt="logo" height={50} width={50} />
+            <Image src={"/developer.png"} alt="logo" height={50} width={50} />
+            {/* <span className="font-extrabold text-sm bg-gradient-to-b from-purplePrimary via-purple-800 to-purple-500 text-white p-3 rounded-full">{'</>'}</span> */}
           </Link>
         </div>
 

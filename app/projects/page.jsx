@@ -3,6 +3,7 @@ import ProjectCard from "@/components/projectCard";
 import { pb } from "@/libs/pocketbase";
 import { useEffect, useState } from "react";
 
+
 const Projects = () => {
   const [projects, setProjects] = useState([]);
 
@@ -33,6 +34,8 @@ const Projects = () => {
           );
         })}
       </div>
+
+      
     </section>
   );
 };
