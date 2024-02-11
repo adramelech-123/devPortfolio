@@ -3,7 +3,8 @@ import Link from "next/link";
 
 const ProjectCard = ({image, recordId, title, desc, repo, livedemo}) => {
   return (
-    <div className="mt-5 w-[300px] h-[400px] p-3 flex flex-col rounded-xl shadow-lg bg-white/30 backdrop-blur-md ring-1 ring-gray-100 space-y-3">
+    <div className="mt-5 w-[300px] h-[400px] p-3 flex flex-col rounded-xl shadow-lg drop-shadow-lg bg-white/40 backdrop-blur-md ring-1 ring-gray-100/60 space-y-3">
+      
       {/* <img
         src={`http://127.0.0.1:8090/api/files/sq6yqjvfdqm9l4n/${recordId}/${image}`}
         alt="projectimage"
