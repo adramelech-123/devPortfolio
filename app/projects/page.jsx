@@ -1,18 +1,16 @@
-"use client"
+"use client";
 import ProjectCard from "@/components/projectCard";
 import { pb } from "@/libs/pocketbase";
 import { useEffect, useState } from "react";
 
-
 const Projects = () => {
-
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
     pb.collection("projects")
       .getFullList()
       .then((res) => setProjects(res));
-  }, [])
+  }, []);
 
   return (
     <section className="flex flex-col items-center">
@@ -21,23 +19,21 @@ const Projects = () => {
       </h1>
 
       <div className="flex flex-wrap gap-5 justify-center">
-        {
-          projects.map((project) => {
-            return (
-              <ProjectCard
-                key={project.id}
-                recordId={project.id}
-                image={project.image}
-                title={project.title}
-                desc={project.description}
-                repo={project.repo}
-                livedemo={project.livedemo}
-              />
-            );
-          })
-        }
+        {projects.map((project) => {
+          return (
+            <ProjectCard
+              key={project.id}
+              recordId={project.id}
+              image={project.image}
+              title={project.title}
+              desc={project.description}
+              repo={project.repo}
+              livedemo={project.livedemo}
+            />
+          );
+        })}
       </div>
     </section>
   );
-}
-export default Projects
+};
+export default Projects;
