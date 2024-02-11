@@ -9,11 +9,11 @@ const Home = () => {
       {/* Intro Card */}
       <div className="flex flex-col max-w-[950px] p-6 ring-1 ring-gray-100 rounded-lg bg-white/30 drop-shadow-lg backdrop-blur-md">
         <p className="text-[20px] font-semibold">👋Hi there,</p>
-        <p className="text-[30px] md:text-[40px] w-[200px] font-bold text-transparent bg-clip-text bg-gradient-to-l from-pink-500 to-purplePrimary">
+        <p className="text-[30px] md:text-[40px] w-[200px] font-extrabold text-transparent bg-clip-text bg-gradient-to-l from-pink-500 to-purplePrimary">
           I'm Taku
         </p>
         <h1 className="text-3xl md:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-purple-700 to-purplePrimary">
-          Fullstack Alchemist & Blockchain Enthusiast
+          Fullstack Developer & Blockchain Enthusiast
         </h1>
         <p className="pt-4 md:text-[20px] font-normal text-purpleSecondary">
           From Fullstack Alchemist to Web3 Maestro, I'm building the tools to

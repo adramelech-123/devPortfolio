@@ -16,12 +16,13 @@ const Navbar = () => {
       <div className="w-full flex justify-between items-center">
         <div className="flex gap-3 items-center">
           <Image
-            src={"/profile.jpg"}
+            src={"/oldPC.png"}
             alt="logo"
             height={50}
             width={50}
             className="rounded-full"
           />
+          {/* <h1 className="text-sm font-bold bg-transparent bg-clip-text bg-gradient-to-r from-purplePrimary to-purple-700">theFullStack Alchemist</h1> */}
         </div>
 
         {/* Desktop Menu */}

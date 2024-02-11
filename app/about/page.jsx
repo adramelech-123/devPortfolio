@@ -9,12 +9,12 @@ import Skills from "@/components/Skills";
 const About = () => {
   return (
     <section className="flex flex-col items-center">
-      <h1 className="text-5xl font-extrabold py-3 text-transparent bg-clip-text bg-gradient-to-l from-purple-600 to-purplePrimary">
+      <h1 className="text-5xl font-extrabold py-2 text-transparent bg-clip-text bg-gradient-to-l from-purple-600 to-purplePrimary">
         ABOUT
       </h1>
 
       {/* Profile*/}
-      <div className="flex flex-col h-[1000px] lg:h-auto lg:flex-row lg:space-between lg:w-3/4 lg:gap-5 lg:items-center">
+      <div className="flex flex-col h-[1000px] lg:h-[450px] lg:flex-row lg:space-between lg:w-3/4 lg:gap-5 lg:items-center">
         
         {/* Profile Image */}
         <Image src={"/glow-robo-hands.gif"} alt="robohands" width={550} height={550} />

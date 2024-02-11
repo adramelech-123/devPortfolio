@@ -30,6 +30,8 @@ const Projects = () => {
                 image={project.image}
                 title={project.title}
                 desc={project.description}
+                repo={project.repo}
+                livedemo={project.livedemo}
               />
             );
           })

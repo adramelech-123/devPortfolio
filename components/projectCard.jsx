@@ -1,7 +1,8 @@
 import Image from "next/image"
 import { FaGithub } from "react-icons/fa6";
+import Link from "next/link";
 
-const ProjectCard = ({image, recordId, title, desc}) => {
+const ProjectCard = ({image, recordId, title, desc, repo, livedemo}) => {
   return (
     <div className="mt-5 w-[300px] h-[400px] p-3 flex flex-col rounded-xl shadow-lg bg-white/30 backdrop-blur-md ring-1 ring-gray-100 space-y-3">
       {/* <img
@@ -26,15 +27,15 @@ const ProjectCard = ({image, recordId, title, desc}) => {
         <hr className="" />
         <p className="text-sm text-purpleSecondary">{desc}</p>
         <div className="flex gap-3 items-center pt-2">
-          <button className="py-2 px-3 bg-black hover:bg-purplePrimary text-white text-sm rounded-md flex items-center gap-2">
+          <Link href={repo} target="blank" className="py-2 px-3 bg-black hover:bg-purplePrimary text-white text-sm rounded-md flex items-center gap-2">
             <span>
               <FaGithub className="text-[20px]" />
             </span>
             Github
-          </button>
-          <button className="py-2 px-3 bg-purpleSecondary hover:bg-purple-900 text-white text-sm rounded-md">
+          </Link>
+          <Link href={livedemo} target="blank" className="py-2 px-3 bg-purpleSecondary hover:bg-purple-900 text-white text-sm rounded-md">
             Live Demo
-          </button>
+          </Link>
         </div>
       </div>
     </div>
