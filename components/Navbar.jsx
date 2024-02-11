@@ -13,16 +13,11 @@ const Navbar = () => {
   return (
     <nav className="bg-white/30 backdrop-blur-md p-6 flex items-center z-[10]">
       {/* Desktop Navigation */}
-      <div className="w-full flex justify-between items-center">
+      <div className=" relative w-full flex justify-between items-center">
         <div className="flex gap-3 items-center">
-          <Image
-            src={"/oldPC.png"}
-            alt="logo"
-            height={50}
-            width={50}
-            className="rounded-full"
-          />
-          {/* <h1 className="text-sm font-bold bg-transparent bg-clip-text bg-gradient-to-r from-purplePrimary to-purple-700">theFullStack Alchemist</h1> */}
+          <Link href={"/"} className="flex justify-center items-center">
+            <Image src={"/alchemy2.png"} alt="logo" height={50} width={50} />
+          </Link>
         </div>
 
         {/* Desktop Menu */}
