@@ -75,6 +75,7 @@ const Hire = () => {
               type="text"
               placeholder="First Name"
               onChange={handleInputChange}
+              autoComplete="off"
             />
             <input
               className="bg-white/70 text-gray-700 rounded-lg p-3 ring-1 ring-gray-200 drop-shadow-md"
@@ -82,6 +83,7 @@ const Hire = () => {
               type="text"
               placeholder="Last Name"
               onChange={handleInputChange}
+              autoComplete="off"
             />
             <input
               className="bg-white/70 text-gray-700 rounded-lg p-3 ring-1 ring-gray-200 drop-shadow-md"
@@ -89,6 +91,7 @@ const Hire = () => {
               type="email"
               placeholder="Email Address"
               onChange={handleInputChange}
+              autoComplete="off"
             />
             <textarea
               name="message"
@@ -98,16 +101,13 @@ const Hire = () => {
               placeholder="Message"
               className="resize-none bg-white/70 text-gray-700 rounded-lg p-3 ring-1 ring-gray-200 drop-shadow-md"
               onChange={handleInputChange}
+              autoComplete="off"
             />
             <button
               type="submit"
               className="bg-purplePrimary hover:bg-purpleSecondary text-white p-3 font-bold rounded-md"
             >
-              {
-                submitting
-               ? "Sending message..."
-                  : "Send Message"
-              }
+              {submitting ? "Sending message..." : "Send Message"}
             </button>
           </form>
         </div>
