@@ -27,13 +27,13 @@ const ProjectCard = ({image, recordId, title, desc, repo, livedemo}) => {
         <hr className="" />
         <p className="text-sm text-purpleSecondary">{desc}</p>
         <div className="flex gap-3 items-center pt-2">
-          <Link href={repo} target="blank" className="py-2 px-3 bg-black hover:bg-purplePrimary text-white text-sm rounded-md flex items-center gap-2">
+          <Link href={repo} target="_blank" className="py-2 px-3 bg-black hover:bg-purplePrimary text-white text-sm rounded-md flex items-center gap-2">
             <span>
               <FaGithub className="text-[20px]" />
             </span>
             Github
           </Link>
-          <Link href={livedemo} target="blank" className="py-2 px-3 bg-purpleSecondary hover:bg-purple-900 text-white text-sm rounded-md">
+          <Link href={livedemo} target="_blank" className="py-2 px-3 bg-purpleSecondary hover:bg-purple-900 text-white text-sm rounded-md">
             Live Demo
           </Link>
         </div>

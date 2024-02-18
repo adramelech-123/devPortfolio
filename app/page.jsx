@@ -1,11 +1,11 @@
 "use client"
 import Image from "next/image";
 import { FaDownload } from "react-icons/fa";
+import Link from "next/link";
 
 const Home = () => {
   return (
     <section className="flex flex-col items-center lg:flex-row lg:justify-between gap-3 pb-7">
-
       {/* Intro Card */}
       <div className="flex flex-col max-w-[950px] p-6 ring-1 ring-gray-100 rounded-lg bg-white/30 drop-shadow-lg backdrop-blur-md">
         <p className="text-[20px] font-semibold">👋Hi there,</p>
@@ -30,9 +30,13 @@ const Home = () => {
             <span>Resume</span>
           </button>
 
-          <button className="bg-transparent font-semibold text-purplePrimary py-4 px-6 hover:underline ">
+          <Link
+            href={"https://github.com/adramelech-123"}
+            target="_blank"
+            className="bg-transparent font-semibold text-purplePrimary py-4 px-6 hover:underline "
+          >
             Visit my Github Profile
-          </button>
+          </Link>
         </div>
       </div>
 
