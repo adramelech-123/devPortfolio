@@ -22,18 +22,18 @@ const Home = () => {
           of blockchain, one line of code at a time.
         </p>
 
-        <div className="pt-4 flex">
-          <button className="bg-purplePrimary text-white font-semibold py-4 px-6 rounded-lg flex gap-2 items-center hover:bg-white hover:text-purplePrimary">
+        <div className="pt-4 flex flex-col gap-3 sm:flex-row">
+          <button className="w-full sm:w-[180px] bg-purplePrimary text-white font-semibold py-4 px-6 rounded-lg flex gap-2 items-center justify-center hover:bg-white hover:text-purplePrimary">
             <span>
               <FaDownload />
             </span>
-            <span>Resume</span>
+            <span>My Resume</span>
           </button>
 
           <Link
             href={"https://github.com/adramelech-123"}
             target="_blank"
-            className="bg-transparent font-semibold text-purplePrimary py-4 px-6 hover:underline "
+            className="bg-purplePrimary text-center rounded-md  text-white sm:bg-transparent font-semibold sm:text-purplePrimary py-4 px-6 hover:underline "
           >
             Visit my Github Profile
           </Link>

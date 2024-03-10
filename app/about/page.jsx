@@ -25,7 +25,7 @@ const About = () => {
 
         {/* Profile Card Content */}
         <div
-          className={`${styles.card} lg:min-w-[500px] h-[450px] md:h-[400px] bg-white/30 rounded-xl shadow-lg ring-3 ring-white/30`}
+          className={`${styles.card} lg:min-w-[500px] h-[650px] md:h-[400px] bg-white/30 rounded-xl shadow-lg ring-3 ring-white/30`}
         >
           {/* Bio */}
           <div className={`${styles.front} max-w-[800px] min-h-[400px] p-6 flex flex-col justify-center`}>
@@ -47,17 +47,6 @@ const About = () => {
               creativity, and let's build the future together!
             </p>
 
-            {/* <div className="hidden md:flex md:flex-row gap-3">
-              <div className="flex gap-3 items-center mt-4">
-                <FaPhone className=" bg-purpleTint p-1  w-[25px] h-[25px] text-purplePrimary rounded-full" />
-                <span className="text-purplePrimary">+263771326080</span>
-              </div>
-
-              <div className="flex gap-3 items-center mt-4">
-                <MdEmail className=" bg-purpleTint p-1  w-[25px] h-[25px] text-purplePrimary rounded-full" />
-                <span className="text-purplePrimary">tmamvuto6@gmail.com</span>
-              </div>
-            </div> */}
           </div>
 
           {/* Skills */}
