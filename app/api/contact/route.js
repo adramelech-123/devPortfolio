@@ -6,6 +6,9 @@ import { NextResponse } from "next/server";
 import fs from "fs";
 import path from "path";
 
+// For CloudFlare deploy
+export const runtime = "edge";
+
 export async function POST(request) {
     const data = await request.json(); //Our form data as json
 
